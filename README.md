@@ -1,3 +1,4 @@
+## Summary
 See the full implementation here: [movie_rating_predictor.py](movie_rating_predictor.py)
 
 What this script does:
