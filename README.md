@@ -1,21 +1,19 @@
-## Summary
 See the full implementation here: [movie_rating_predictor.py](movie_rating_predictor.py)
 
 What this script does:
-
 Creates a small sample dataset with movie descriptions + ratings. Converts ratings into High (1) or Low (0) categories. 
 Uses TF-IDF to turn text into features. Trains a Logistic Regression model. Prints training & testing accuracy. Predicts a new, unseen movie description.
 
 
-# Predicting-Movie-Ratings
+## Predicting-Movie-Ratings
 Predict whether a movie will be rated “high” or “low” based on its description and genre using AI.  Uses a simple machine learning classifier (like Logistic Regression or KNN).
 Final project for the Building AI course
 
-Summary
+## Summary
 An AI tool that predicts whether a movie will receive a high or low rating based on its description and genre. This helps users quickly decide if a movie might be worth watching.
 Building AI course project
 
-Background
+## Background
 Problems:
 People spend a lot of time choosing movies they may not enjoy.
 Movie descriptions and genres don’t always make clear whether a movie is good.
@@ -29,13 +27,13 @@ My motivation:
 I love movies and often find it hard to choose what to watch.
 I wanted to practice using AI for text-based predictions.
 
-How is it used?
+## How is it used?
 Users: Movie enthusiasts, streaming platforms, or casual viewers.
 How: User enters a movie description (or selects genre/year).
 What happens: The AI predicts if the movie is likely to have a “high” rating (>7) or “low” rating (≤7).
 When: Before watching a movie to help decide.
 
-Data sources and AI methods
+## Data sources and AI methods
 Data sources:
 Public IMDb datasets from Kaggle
 Alternatively, a small custom dataset with descriptions and ratings.
@@ -74,19 +72,19 @@ model.fit(X_train, y_train)
 print("Training accuracy:", model.score(X_train, y_train))
 print("Testing accuracy:", model.score(X_test, y_test))
 
-Challenges
+## Challenges
 AI can’t predict personal taste (e.g., someone may love a “low-rated” movie).
 Predictions rely heavily on training data quality.
 Text preprocessing (removing stop words, handling synonyms) is tricky.
 Ethical concern: labeling movies as “low” might discourage people from trying unique films.
 
-What next?
+## What next?
 Include more features: actors, directors, year, budget.
 Build a simple web app where users paste a movie description.
 Extend into a movie recommendation system (suggest similar movies).
 Collaborate with designers for a user-friendly interface.
 
-Acknowledgments
+## Acknowledgments
 IMDb Dataset on Kaggle
 Python libraries: scikit-learn, pandas, numpy.
 Inspiration: Recommendation systems used by Netflix and IMDb.
